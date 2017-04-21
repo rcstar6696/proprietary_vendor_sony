@@ -334,6 +334,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+	 vendor/sony/shinano-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -422,13 +423,16 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
